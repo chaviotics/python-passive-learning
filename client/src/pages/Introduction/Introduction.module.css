@@ -1,0 +1,48 @@
+.container {
+  /* display: flex; */
+  padding: 72px 18% 0 18%;
+}
+
+.introHeading {
+  margin-bottom: 24px;
+}
+
+.introTitle {
+  margin-bottom: 24px;
+  font-size: var(--header1);
+  text-align: center;
+}
+
+.introText {
+  font-size: var(--default);
+}
+
+.codeSpace {
+  display: flex;
+  gap: 24px;
+}
+
+.editorWrapper {
+  height: 320px;
+  width: 50%;
+  /* font-size: 240px; */
+}
+
+.outputConsole {
+  background-color: red;
+  width: 50%;
+  height: 320px;
+}
+
+.button {
+  border-radius: 30px;
+  width: 300px;
+  height: 70px;
+  font-size: var(--body1);
+  background-color: skyblue;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: blue;
+}

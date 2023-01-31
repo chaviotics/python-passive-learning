@@ -11,6 +11,7 @@
   margin-bottom: 75px;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  font-size: var(--header1);
   font-weight: 500;
   color: var(--white);
 }
@@ -19,6 +20,7 @@
   border-radius: 30px;
   width: 300px;
   height: 70px;
+  font-size: var(--body1);
   background-color: skyblue;
 }
 

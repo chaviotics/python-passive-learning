@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: skyblue;
+  padding: 10% 15%;
+  overflow: scroll;
+}
+
+.container .text {
+  margin-bottom: 50px;
+}
+
+.topicsList {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: 80px 80px;
+  grid-gap: 32px;
+  margin-bottom: 50px;
+}
+
+.topicContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 80px; */
+  padding: 1rem;
+  background-color: yellow;
+}
+
+.topicContainer p {
+  text-align: center;
+}
+
+.button {
+  border-radius: 30px;
+  align-self: center;
+  width: 300px;
+  height: 70px;
+  background-color: skyblue;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: blue;
+}

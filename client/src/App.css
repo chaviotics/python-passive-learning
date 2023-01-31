@@ -4,10 +4,24 @@
 * {
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 
-  /* font-size: 62.5%; 10px */
   font-family: 'Rubik', sans-serif;
+  font-size: var(--body1);
+
+  /* Font Sizes */
+  --ratio: 1.5; /* Perfect Fifth from: https://type-scale.com/ */
+  --title: calc(var(--header1) * var(--ratio));
+  --header1: calc(var(--header2) * var(--ratio));
+  --header2: calc(var(--body1) * var(--ratio));
+  --body1: 18px;
+  --body2: 16px;
+
+  /* Font Weights */
+  --normal: 400;
+  --medium: 500;
+  --semi-bold: 600;
+  --bold: 700;
 
   /* Colors */
   --white: #fff;
@@ -17,25 +31,4 @@
   --black: #000;
   --lighter-blue: #44a4d7;
   --light-blue: #3382c1;
-
-  --orange-light: #ffdfb1;
-  --orange-background: #ffca84;
-  --orange-solid: #ff9f47;
-  --orange-bold: #db6900;
-  --red-bold: #ee0017;
-  --red-light: #f8616d;
-  --green: #007500;
-
-  /* Font Sizes */
-  --title: 4rem;
-  --header1: 3.6rem;
-  --header2: 2.4rem;
-  --default: 1.6rem;
-  --secondary: 1.4rem;
-
-  /* Font Weights */
-  --normal: 400;
-  --medium: 500;
-  --semi-bold: 600;
-  --bold: 700;
 }
