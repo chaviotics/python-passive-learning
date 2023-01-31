@@ -1,0 +1,10 @@
+.quizContainer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.quizFrame {
+  width: 750px;
+  height: 1000px;
+}
