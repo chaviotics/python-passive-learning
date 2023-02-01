@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 96px 24px;
+  color: var(--white);
+}
+
+.summaryContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 64px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.title h1 {
+  font-size: var(--header1);
+}
+
+.title p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: var(--title);
+}
+
+.summary {
+  display: flex;
+  gap: 32px;
+}
+
+.pythonLogo {
+  align-self: center;
+}
+
+.text {
+  margin-bottom: 36px;
+  line-height: 1.5;
+}
+
+.compareWithC h2 {
+  font-size: var(--header2);
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.featuresList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 48px;
+  margin-bottom: 48px;
+}

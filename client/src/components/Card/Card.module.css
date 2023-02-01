@@ -1,0 +1,10 @@
+.container {
+  border-radius: 30px;
+  padding: 48px;
+  color: var(--dark-blue);
+  background-color: var(--yellow);
+}
+
+.container h1 {
+  margin-bottom: 18px;
+}

@@ -1,20 +1,24 @@
 .container {
   display: flex;
   flex-direction: column;
-  background-color: skyblue;
-  padding: 10% 15%;
   overflow: scroll;
+  padding: 120px 24px;
+  max-width: 900px;
+  margin: 72px auto;
+  color: var(--white);
+  background-color: var(--dark-blue);
+  overflow: hidden;
 }
 
 .container .text {
-  margin-bottom: 50px;
+  margin-bottom: 48px;
+  line-height: 1.5;
 }
 
 .topicsList {
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(3, 200px);
-  grid-template-rows: 80px 80px;
   grid-gap: 32px;
   margin-bottom: 50px;
 }
@@ -23,9 +27,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 80px; */
+  border-radius: 30px;
+  height: 90px;
   padding: 1rem;
-  background-color: yellow;
+  background-color: var(--lighter-blue);
+  color: var(--dark-blue);
 }
 
 .topicContainer p {

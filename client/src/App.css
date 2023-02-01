@@ -11,9 +11,9 @@
 
   /* Font Sizes */
   --ratio: 1.5; /* Perfect Fifth from: https://type-scale.com/ */
-  --title: calc(var(--header1) * var(--ratio));
-  --header1: calc(var(--header2) * var(--ratio));
-  --header2: calc(var(--body1) * var(--ratio));
+  --title: calc(var(--header1) * var(--ratio)); /* 60.25px */
+  --header1: calc(var(--header2) * var(--ratio)); /* 40.50px */
+  --header2: calc(var(--body1) * var(--ratio)); /* 27px */
   --body1: 18px;
   --body2: 16px;
 
@@ -24,11 +24,25 @@
   --bold: 700;
 
   /* Colors */
-  --white: #fff;
+  --white: #e7ecef;
   --gray-dark: #4e4a46;
   --gray-light: #8f8f8f;
 
   --black: #000;
   --lighter-blue: #44a4d7;
   --light-blue: #3382c1;
+  --dark-blue: #023047;
+  --yellow: #ffb703;
 }
+
+body {
+  background-color: var(--dark-blue);
+}
+
+/* 
+
+--primary: ;
+--primary-emphasis::after
+--secondary: ;
+
+*/

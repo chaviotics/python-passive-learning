@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import TOCSS from './TopicOutline.module.css';
 
 const topics = [
-  { id: 1, title: 'Introduction (What is Python?)' },
+  { id: 1, title: 'Introduction to Python' },
   { id: 2, title: 'Arithmetic Operations' },
   { id: 3, title: 'Variables' },
   { id: 4, title: 'Data Types' },

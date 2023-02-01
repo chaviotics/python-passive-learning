@@ -1,12 +1,15 @@
 import { Link } from 'react-router-dom';
 import Editor from '@monaco-editor/react';
-import ICSS from './Introduction.module.css';
+import HWCSS from './HelloWorld.module.css';
 
-function Intro() {
+function IntroHeading() {
   return (
-    <div className={ICSS.introHeading}>
-      <h1 className={ICSS.introTitle}>Hello, World!</h1>
-      <p className={ICSS.introText}>
+    <div className={HWCSS.introHeading}>
+      <div className={HWCSS.title}>
+        <h1>Introduction</h1>
+        <p>Hello, World!</p>
+      </div>
+      <p className={HWCSS.text}>
         You have heard of this statement many times when you learn a new
         programming language. Here’s how you can do it in Python.
       </p>
@@ -17,7 +20,7 @@ function Intro() {
 function CodeEditor() {
   const code = "print('Hello, World')";
   return (
-    <div className={ICSS.editorWrapper}>
+    <div className={HWCSS.editorWrapper}>
       <Editor
         theme="vs-dark"
         defaultLanguage="python"
@@ -31,22 +34,22 @@ function CodeEditor() {
 }
 
 function OutputConsole() {
-  return <div className={ICSS.outputConsole}></div>;
+  return <div className={HWCSS.outputConsole}></div>;
 }
 
-function Introduction() {
+function HelloWorld() {
   return (
-    <div className={ICSS.container}>
-      <Intro />
-      <div className={ICSS.codeSpace}>
+    <div className={HWCSS.container}>
+      <IntroHeading />
+      <div className={HWCSS.codeSpace}>
         <CodeEditor />
         <OutputConsole />
       </div>
       {/* <Link> */}
-      <button className={ICSS.button}>Proceed to Next Level</button>
+      <button className={HWCSS.button}>Proceed to Next Level</button>
       {/* </Link> */}
     </div>
   );
 }
 
-export default Introduction;
+export default HelloWorld;
